@@ -1,0 +1,16 @@
+{
+  "_hidden": true,
+  "_template": "List.hbs",
+  "title": "{{words}}",
+  "items": [
+    {
+      "_include": "/core/promo/Promo.json"
+    },
+    {
+      "_include": "/core/promo/Promo.json"
+    },
+    {
+      "_include": "/core/promo/Promo.json"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "_include": "/core/page/ExternalScript.json"
+  },
+  {
+    "_include": "/core/page/InlineScript.json"
+  },
+  {
+    "_include": "/facebook/FacebookJavaScriptSdk.json"
+  },
+  {
+    "_include": "/twitter/widgets/TwitterWidgetsJavaScript.json"
+  },
+  {
+    "_include": "/google-analytics/GoogleAnalyticsScript.json"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "_hidden": true,
+  "_wrapper": false,
+  "_template": "Comment.hbs",
+  "id": "{{words(1)}}",
+  "authorImage": {
+    "_image": true
+  },
+  "authorName": "{{name}}",
+  "body": "{{words}}",
+  "timestamp": "{{date}}",
+  "status": "PENDING"
+}

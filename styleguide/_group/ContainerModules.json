@@ -1,0 +1,26 @@
+[
+  {
+    "_include": "/core/promo/Promo.json"
+  },
+  {
+    "_include": "/core/figure/Figure.json"
+  },
+  {
+    "_include": "/core/list/_SimpleList.json"
+  },
+  {
+    "_include": "/core/video/HTML5VideoEnhancement.json"
+  },
+  {
+    "_include": "/youtube/YouTubeVideoEnhancement.json"
+  },
+  {
+    "_include": "/core/text/RichTextModule.json"
+  },
+  {
+    "_include": "/core/form/Form.json"
+  },
+  {
+    "_include": "/core/quote/Quote.json"
+  }
+]

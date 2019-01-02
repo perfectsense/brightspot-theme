@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="Page{{#with modifier}} {{this}}{{/with}}" lang="{{#with language}}{{this}}{{else}}en{{/with}}" itemscope itemtype="http://schema.org/WebPage">
+    {{include "/core/page/Page-head.hbs" this}}
+    
+    <body class="Page-body"{{~#each extraBodyAttributes}} {{this}}{{~/each~}}>
+        {{include "/core/page/Page-header.hbs" this}}
+
+        {{#with banner}}
+            <div class="Page-banner">{{~this~}}</div>
+        {{/with}}
+
+        {{#with sectionNavigation}}
+            <div class="Page-sectionNavigation">{{this}}</div>
+        {{/with}}
+
+        {{#with packageNavigation}}
+            <div class="Page-packageNavigation">{{this}}</div>
+        {{/with}}
+
+        {{#with above}}
+            <div class="Page-above">{{this}}</div>
+        {{/with}}
+
+        {{#with $main}}
+            {{{this}}}
+        {{else}}
+            <main class="Page-main">
+                {{#with pageHeading}}
+                    <h1 class="Page-pageHeading">{{this}}</h1>
+                {{/with}}
+
+                {{#with pageSubHeading}}
+                    <div class="Page-pageSubHeading">{{this}}</div>
+                {{/with}}
+
+                {{#with actions}}
+                    <div class="Page-actions">
+                        <h4 class="Page-actions-heading">{{format "/core/page/Page" "actionsHeading"}}</h4>
+                        <div class="Page-actions-body">{{this}}</div>
+                    </div>
+                {{/with}}
+
+                {{#with pageLead}}
+                    <div class="Page-pageLead">{{this}}</div>
+                {{/with}}
+
+                {{#with main}}
+                    {{this}}
+                {{/with}}
+            </main>
+        {{/with}}
+
+        {{#with aside}}
+            <aside class="Page-aside">{{this}}</aside>
+        {{/with}}
+
+        {{#with below}}
+            <div class="Page-below">{{this}}</div>
+        {{/with}}
+
+        {{include "/core/page/Page-footer.hbs" this}}
+        {{~#with extraBodyItems}}{{this}}{{/with~}}
+    </body>
+</html>

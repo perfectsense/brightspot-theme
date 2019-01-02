@@ -1,0 +1,27 @@
+{
+  "_wrapper": false,
+  "_include": "/core/page/CreativeWorkPage.json",
+  "_template": "MediaObjectPage.hbs",
+  "bitrate": "1.4 Gbit/s",
+  "duration": "24 minutes",
+  "embedUrl": "https://mdn-samples.mozilla.org/snippets/html/iframe-simple-contents.html",
+  "fileFormat": "jpeg",
+  "fileSize": "1.2GB",
+  "fileUrl": "https://brightspot.brightspotcdn.com/1c/f2/273a179a4bddaa9e868f09c7223b/brightspot-logo-1.svg",
+  "media": {
+    "_include": "/_group/Medias.json",
+    "_key": 0
+  },
+  "playerType": "default",
+  "height": "900",
+  "status": "pending",
+  "width": "1600",
+  "collections": [
+    {
+      "_include": "/core/link/Link.json",
+      "_repeat": 1
+    }
+  ],
+  "timedContentTimeStamp": "{{number([0,50])}}",
+  "_hidden": true
+}

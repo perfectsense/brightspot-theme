@@ -1,0 +1,8 @@
+{
+  "vars": {
+    "exampleSiteUrl": "http://www.brightspot.com/"
+  },
+  "includes": [
+    "**/*.config.json"
+  ]
+}

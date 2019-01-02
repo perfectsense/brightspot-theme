@@ -1,0 +1,49 @@
+<main class="ContentPage-main">
+    {{#with breadcrumbs}}
+        <div class="ContentPage-breadcrumbs">{{this}}</div>
+    {{/with}}
+    {{#with mainContent}}
+        <div class="ContentPage-mainContent">{{this}}</div>
+    {{/with}}
+    {{#with tags}}
+        <div class="ContentPage-tags">
+            <h4 class="ContentPage-tags-heading">{{format "/core/page/ContentPage" "tagsHeading"}}</h4>
+            <div class="ContentPage-tags-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with countries}}
+        <div class="ContentPage-countries">
+            <h4 class="ContentPage-countries-heading">{{format "/core/page/ContentPage" "countriesHeading"}}</h4>
+            <div class="ContentPage-countries-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with brands}}
+        <div class="ContentPage-brands">
+            <h4 class="ContentPage-brands-heading">{{format "/core/page/ContentPage" "brandsHeading"}}</h4>
+            <div class="ContentPage-brands-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with products}}
+        <div class="ContentPage-products">
+            <h4 class="ContentPage-products-heading">{{format "/core/page/ContentPage" "productsHeading"}}</h4>
+            <div class="ContentPage-products-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with topics}}
+        <div class="ContentPage-topics">
+            <h4 class="ContentPage-topics-heading">{{format "/core/page/ContentPage" "topicsHeading"}}</h4>
+            <div class="ContentPage-topics-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with actions}}
+        <div class="ContentPage-actions">
+            <h4 class="ContentPage-actions-heading">{{format "/core/page/ContentPage" "actionsHeading"}}</h4>
+            <div class="ContentPage-actions-body">{{this}}</div>
+        </div>
+    {{/with}}
+    {{#with comments}}
+        <div class="ContentPage-comments">
+            {{this}}
+        </div>
+    {{/with}}
+</main>

@@ -1,0 +1,8 @@
+{
+  "_template": "/core/video/VideoEnhancement.hbs",
+  "title": "HTML 5 Video Enhancement",
+  "player": {
+    "_include": "/core/video/HTML5VideoPlayer.json"
+  },
+  "_hidden": true
+}

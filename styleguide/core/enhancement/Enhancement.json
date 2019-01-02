@@ -1,0 +1,9 @@
+{
+  "_template": "Enhancement.hbs",
+  "item": {
+    "_include": "/_group/RichTextElements.json",
+    "_random": true
+  },
+  "inline": false,
+  "_hidden": true
+}

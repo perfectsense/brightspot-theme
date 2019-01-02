@@ -1,0 +1,9 @@
+{
+  "_hidden": true,
+  "_template": "Quote.hbs",
+  "quote": "{{words([20,30])}}",
+  "attribution": "{{words}}",
+  "image": {
+    "_include": "/core/image/Image.json"
+  }
+}

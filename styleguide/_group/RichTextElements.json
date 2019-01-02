@@ -1,0 +1,44 @@
+[
+  {
+    "_include": "/core/list/_SimpleList.json"
+  },
+  {
+    "_include": "/facebook/FacebookEmbed.json"
+  },
+  {
+    "_include": "/facebook/FacebookUrl.json"
+  },
+  {
+    "_include": "/core/figure/Figure.json"
+  },
+  {
+    "_include": "/core/video/HTML5VideoEnhancement.json"
+  },
+  {
+    "_include": "/instagram/InstagramEmbed.json"
+  },
+  {
+    "_include": "/instagram/InstagramUrl.json"
+  },
+  {
+    "_include": "/core/link/Link.json"
+  },
+  {
+    "_include": "/core/promo/Promo.json"
+  },
+  {
+    "_include": "/core/quote/Quote.json"
+  },
+  {
+    "_include": "/core/text/RichTextModule.json"
+  },
+  {
+    "_include": "/twitter/TweetEmbed.json"
+  },
+  {
+    "_include": "/twitter/TweetUrl.json"
+  },
+  {
+    "_include": "/youtube/YouTubeVideoEnhancement.json"
+  }
+]

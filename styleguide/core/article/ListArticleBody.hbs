@@ -1,0 +1,9 @@
+<div class="ListArticleBody">
+    {{#with items}}
+        <ol class="ListArticleBody-items" itemscope itemtype="http://schema.org/ItemList">
+            {{#each this}}
+                <li class="ListArticleBody-items-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">{{this}}</li>
+            {{/each}}
+        </ol>
+    {{/with}}
+</div>

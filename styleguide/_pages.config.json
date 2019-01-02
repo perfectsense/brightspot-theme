@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "name": "Pages",
+      "pages": [
+        {
+          "name": "Article",
+          "content": "/core/article/ArticlePage.html"
+        },
+        {
+          "name": "Gallery",
+          "content": "/core/gallery/GalleryPage.html"
+        }
+      ]
+    }
+  ]
+}

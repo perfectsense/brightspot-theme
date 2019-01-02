@@ -1,0 +1,26 @@
+{
+  "_template": "Commenting.hbs",
+  "targetId": "{{number}}",
+  "formActionUrl": "Comment.html",
+  "paginationNextUrl": "Comments.html",
+  "displayPagination": true,
+  "displayForm": true,
+  "comments": [
+    {
+      "_include": "Comments.json"
+    },
+    {
+      "_include": "Comment.json",
+      "status": ""
+    },
+    {
+      "_include": "Comment.json",
+      "level": 2,
+      "status": ""
+    },
+    {
+      "_include": "Comment.json",
+      "level": 3
+    }
+  ]
+}

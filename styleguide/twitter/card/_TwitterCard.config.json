@@ -1,0 +1,8 @@
+{
+  "imageSizeContexts": {
+    "/twitter/card/*Card.hbs": {
+      "image": "social"
+    }
+  },
+  "_hidden": true
+}

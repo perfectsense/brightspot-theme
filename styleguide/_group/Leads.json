@@ -1,0 +1,20 @@
+[
+  {
+    "_include": "/core/figure/Figure.json"
+  },
+  {
+    "_include": "/core/list/_SimpleList.json"
+  },
+  {
+    "_include": "/core/promo/Promo.json"
+  },
+  {
+    "_include": "/core/video/HTML5VideoPlayer.json"
+  },
+  {
+    "_include": "/youtube/YouTubeVideoPlayer.json"
+  },
+  {
+    "_include": "/core/video/VideoLead.json"
+  }
+]
